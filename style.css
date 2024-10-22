@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #b2e2ee;
+    font-family: Montserrat;
+}
+
+section {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    padding-bottom: 500px;
+
+}
+.top {
+    padding-bottom: 30px;
+}
+.title {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.o {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.p {
+    font-size: 50px;
+    font-weight: 700;
+}
+.grid {
+    width: 1000px;
+    display: grid;
+    grid-template-rows: 150px 170px 170px 240px;
+    grid-template-columns: 600px 600px;
+}
+
+.first {
+    display: grid;
+    grid-template-rows: repeat(8, 125px);
+    grid-template-columns: repeat(2, 250px);
+    gap: 15px;
+}
+.first div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 10px solid #000;
+}
+.m {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: url(tiukfu.jpg);
+    font-size: 50px;
+    
+}
+.n {
+    grid-row: 3/ span 2;
+    background-image: url(iuagwvjec.jpg);
+    
+}
+
+
+.b {
+    grid-row:  6 /span 2;
+    background-image: url(iuagwvjec.jpg);
+}
+.v {
+    background-image: url(iuagwvjec.jpg);
+}
+.second {
+    display: grid;
+    grid-template-rows: repeat(6, 135px);
+    grid-template-columns: repeat(2, 250px);
+    gap: 15px;
+}
+
+.second div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 10px solid #000;
+}
+
+.c {
+    background-image: url(iuagwvjec.jpg);
+    grid-row: 1/ span 3;
+}
+.x {
+    background-image: url(iuagwvjec.jpg);
+    grid-row: 4 / span 2;
+
+}
+
+.l {
+    grid-column: 1/ span 2;
+    grid-row: 6/ span 7;
+    background-image: url(tiukfu.jpg);
+
+}
